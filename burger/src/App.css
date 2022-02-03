@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu,
+.stacking-area {
+  width: 250px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layer {
+  width: 85%;
+  height: 25px;
+  text-align: center;
+  display: block;
+}
